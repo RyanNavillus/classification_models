@@ -1,5 +1,5 @@
 import keras
-from .keras_applications.keras_applications import *
+from keras_applications import *
 
 set_keras_submodules(
     backend=keras.backend,
